@@ -84,7 +84,7 @@ table.cell(6, 1).text = '6'
 slide4 = prs.slides.add_slide(prs.slide_layouts[1])
 title4 = slide4.shapes.title
 title4.text = "Modern and legacy Microsoft Office file types"
-pic = slide4.shapes.add_picture("supported.png", left, top)
+pic = slide4.shapes.add_picture("images/supported.png", left, top)
 
 # SLIDE 5
 slide5 = prs.slides.add_slide(prs.slide_layouts[1])
