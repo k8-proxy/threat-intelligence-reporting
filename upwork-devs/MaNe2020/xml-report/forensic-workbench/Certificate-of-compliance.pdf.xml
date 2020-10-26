@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gw:GWallInfo xsi:schemaLocation="http://glasswall.com/namespace/gwallInfo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gw="http://glasswall.com/namespace">
+	<gw:DocumentStatistics>
+		<gw:DocumentSummary>
+			<gw:TotalSizeInBytes>88757</gw:TotalSizeInBytes>
+			<gw:FileType>pdf</gw:FileType>
+			<gw:Version>PDF-1.4</gw:Version>
+		</gw:DocumentSummary>
+		<gw:ContentManagementPolicy>
+			<gw:Camera cameraName="pdfConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>javascript</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>acroform</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>actions_all</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>value_outside_reasonable_limits</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>retain_exported_streams</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="wordConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>dynamic_data_exchange</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="pptConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="xlsConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>dynamic_data_exchange</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="tiffConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>geotiff</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+		</gw:ContentManagementPolicy>
+		<gw:ContentGroups groupCount="16">
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Basic File Section structure instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="5">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Cross Reference Table Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>670</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>670</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>670</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>670</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Header Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>15</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>15</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>15</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>15</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Object Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>31</gw:InstanceCount>
+						<gw:TotalSizeInBytes>87938</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2836</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>35</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>35579</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF StartXref Section Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>25</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>25</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>25</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>25</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Trailer Section Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>107</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>107</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>107</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>107</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Basic Object Structure instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="13">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>ARRAY</gw:TechnicalDescription>
+						<gw:InstanceCount>72</gw:InstanceCount>
+						<gw:TotalSizeInBytes>72</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>1</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>1</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>ARRAY_end</gw:TechnicalDescription>
+						<gw:InstanceCount>72</gw:InstanceCount>
+						<gw:TotalSizeInBytes>72</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>1</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>1</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>DICTIONARY</gw:TechnicalDescription>
+						<gw:InstanceCount>43</gw:InstanceCount>
+						<gw:TotalSizeInBytes>86</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>2</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>DICTIONARY_end</gw:TechnicalDescription>
+						<gw:InstanceCount>43</gw:InstanceCount>
+						<gw:TotalSizeInBytes>86</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>2</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>NAME</gw:TechnicalDescription>
+						<gw:InstanceCount>504</gw:InstanceCount>
+						<gw:TotalSizeInBytes>2747</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>30</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>NUMERIC_INTEGER</gw:TechnicalDescription>
+						<gw:InstanceCount>6606</gw:InstanceCount>
+						<gw:TotalSizeInBytes>15265</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>6</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>NUMERIC_REAL</gw:TechnicalDescription>
+						<gw:InstanceCount>2286</gw:InstanceCount>
+						<gw:TotalSizeInBytes>15921</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>6</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>4</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>8</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>REFERENCE</gw:TechnicalDescription>
+						<gw:InstanceCount>48</gw:InstanceCount>
+						<gw:TotalSizeInBytes>268</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>5</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>6</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>STREAM</gw:TechnicalDescription>
+						<gw:InstanceCount>10</gw:InstanceCount>
+						<gw:TotalSizeInBytes>83789</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>8378</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>65</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>35501</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>STREAM_GRAPHICS_CMD</gw:TechnicalDescription>
+						<gw:InstanceCount>5586</gw:InstanceCount>
+						<gw:TotalSizeInBytes>8135</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>1</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>2</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>STREAM_end</gw:TechnicalDescription>
+						<gw:InstanceCount>10</gw:InstanceCount>
+						<gw:TotalSizeInBytes>90</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>9</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>9</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>9</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>STRING_HEX</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>68</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>34</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>34</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>34</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>STRING_LITERAL</gw:TechnicalDescription>
+						<gw:InstanceCount>262</gw:InstanceCount>
+						<gw:TotalSizeInBytes>14709</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>56</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>265</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="1">
+					<gw:RemedyItem>
+						<gw:TechnicalDescription>Token tree instances removed.</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+					</gw:RemedyItem>
+				</gw:RemedyItems>
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Content Stream Structure instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="1">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Content Stream Structure</gw:TechnicalDescription>
+						<gw:InstanceCount>8</gw:InstanceCount>
+						<gw:TotalSizeInBytes>25382</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>3172</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>56</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>7426</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Indirect Object Structure instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="1">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Indirect Object</gw:TechnicalDescription>
+						<gw:InstanceCount>147</gw:InstanceCount>
+						<gw:TotalSizeInBytes>0</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>0</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>0</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>0</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has embedded Huffman Filter Stream instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="1">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Embedded Huffman Filter Stream</gw:TechnicalDescription>
+						<gw:InstanceCount>15</gw:InstanceCount>
+						<gw:TotalSizeInBytes>108916</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>7261</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>491</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>35493</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Standard Font Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="7">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>/Helvetica</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>383</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>383</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>CID Font Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>929</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>464</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>427</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>502</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>CID Font Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>929</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>464</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>427</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>502</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Direct Font Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>5</gw:InstanceCount>
+						<gw:TotalSizeInBytes>1583</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>316</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>133</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>502</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Font Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>271</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>135</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>133</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>138</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Type 0 Font Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>271</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>135</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>133</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>138</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Type 1 Font Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>383</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>383</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Resource Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="3">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Inheritable Resource Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>5</gw:InstanceCount>
+						<gw:TotalSizeInBytes>1123</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>224</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>58</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Inherited Resource Array Element Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>23</gw:InstanceCount>
+						<gw:TotalSizeInBytes>5537</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>240</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>224</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Resource Dictionary Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>1065</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>266</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>224</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Graphic Content Stream Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="3">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Content Page or Form XObject Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>3</gw:InstanceCount>
+						<gw:TotalSizeInBytes>682</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>227</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>224</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>231</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Content Stream Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>13219</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>3304</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>7493</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Content Stream Operator Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>5586</gw:InstanceCount>
+						<gw:TotalSizeInBytes>8135</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>1</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>2</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Page Tree Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="4">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Page Object Parent Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>3</gw:InstanceCount>
+						<gw:TotalSizeInBytes>15</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>5</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>5</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Page Tree Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>8</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>2</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Page Tree Kids Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>58</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>58</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>58</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>58</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Page Tree Node Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>58</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>58</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>58</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>58</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Annotations Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="5">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Annotation Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>458</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>229</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>227</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>231</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Annotation Border Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>284</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>71</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>72</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Annotation Common Field Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>284</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>71</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>72</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Annotation Dictionary Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>916</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>229</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>227</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>231</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Link Annotation Dictionary Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>284</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>71</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>72</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Colour Space Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="2">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Colour Space Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>10016</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5008</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2576</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>7440</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Direct Colour Space Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>10016</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5008</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2576</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>7440</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Common Supporting Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="10">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>BBOX Rectangle Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>383</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>383</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Destination Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>122</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>30</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>30</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>31</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Destination Array Page Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+						<gw:TotalSizeInBytes>905</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>226</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>224</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>227</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Direct Dictionary Value</gw:TechnicalDescription>
+						<gw:InstanceCount>224</gw:InstanceCount>
+						<gw:TotalSizeInBytes>1223</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>1</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>30</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Glyph Rectangle Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>379</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>189</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>185</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>194</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Group Attributes Dictionary Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>383</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>383</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Known Dictionary</gw:TechnicalDescription>
+						<gw:InstanceCount>43</gw:InstanceCount>
+						<gw:TotalSizeInBytes>91933</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>2137</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>0</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>35571</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Numeric Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>25</gw:InstanceCount>
+						<gw:TotalSizeInBytes>9957</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>398</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>502</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Page Rectangle Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>7</gw:InstanceCount>
+						<gw:TotalSizeInBytes>966</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>138</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>231</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Rectangle Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>10</gw:InstanceCount>
+						<gw:TotalSizeInBytes>1728</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>172</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>69</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Name Tree Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="4">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Catalog Dictionary Names Dictionary</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>52</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>52</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>52</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>52</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Catalog Names Tree Dictionary Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>27</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>27</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>27</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>27</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Destination Tree Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>85</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>85</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>85</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>85</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Destination Tree Name Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>85</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>85</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>85</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>85</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="1">
+					<gw:RemedyItem>
+						<gw:TechnicalDescription>Nametree contains an invalid destination object.</gw:TechnicalDescription>
+						<gw:InstanceCount>4</gw:InstanceCount>
+					</gw:RemedyItem>
+				</gw:RemedyItems>
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Trailer Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="3">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Document trailer ID Array Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>0</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>0</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>0</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>0</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Document trailer Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>0</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>0</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>0</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>0</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>PDF Document trailer Size Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>0</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>0</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>0</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>0</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has Catalog Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="1">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Catalog Data</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>52</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>52</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>52</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>52</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+			<gw:ContentGroup>
+				<gw:BriefDescription>PDF document has XObject Data Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="3">
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Direct Image Xobject Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>2</gw:InstanceCount>
+						<gw:TotalSizeInBytes>10016</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>5008</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>2576</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>7440</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Form Xobject Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:TotalSizeInBytes>383</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>383</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>383</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>383</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+					<gw:ContentItem>
+						<gw:TechnicalDescription>Xobject Instances</gw:TechnicalDescription>
+						<gw:InstanceCount>3</gw:InstanceCount>
+						<gw:TotalSizeInBytes>686</gw:TotalSizeInBytes>
+						<gw:AverageSizeInBytes>228</gw:AverageSizeInBytes>
+						<gw:MinSizeInBytes>224</gw:MinSizeInBytes>
+						<gw:MaxSizeInBytes>231</gw:MaxSizeInBytes>
+					</gw:ContentItem>
+				</gw:ContentItems>
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="0" />
+			</gw:ContentGroup>
+		</gw:ContentGroups>
+		<gw:ExtractedItems itemCount="0" />
+	</gw:DocumentStatistics>
+</gw:GWallInfo>
