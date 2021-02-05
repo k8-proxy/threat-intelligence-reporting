@@ -1,0 +1,72 @@
+Technical Description,Instances
+Removed PDF token instances,184513
+Pdf Object Instances Not Regenerated.,13598
+Content stream operator BDC has at least one invalid operand.,10056
+XREF entry offset for an object exceeds the size of the input file.,7884
+Marked content tag /P not supported.,3637
+Object specified as free in original PDF will be removed,2937
+Marked content tag /Span not supported.,1017
+Token tree instances removed.,191
+Content stream operator BMC has at least one invalid operand.,183
+Marked content tag /Artifact not supported.,178
+Recreate standard PDF section remedies.,169
+Recreate standard PDF token remedies.,169
+Action associated with a link annotation was removed by content management.,144
+Unreferenced Data Instances Removed,128
+/Group dictionary contained an unexpected key (/Type).,124
+Marked content tag /LBody not supported.,69
+Cross-reference entry offset does not match the actual offset found.,51
+Marked content tag /Link not supported.,43
+Marked content tag /Reference not supported.,38
+Marked content tag /H2 not supported.,32
+/StructTreeRoot detected in a document catalog dictionary.,8
+Remedy and insert missing Cross Reference Table entries.,7
+Remedial work carried out on image,6
+Marked content tag /H1 not supported.,6
+APP segment removed,6
+Sanitized PDF Stream Length Instances,6
+Regenerated PDF Stream Instances,6
+Nametree contains an invalid destination object.,4
+XREF stream NOT supported in version(1.4). XREF stream supports starts in version(1.5).,4
+Marked content tag /Figure not supported.,4
+/Info dictionary contained an unexpected key (/SourceModified).,3
+Remediated 1 bytes of padding at end of file.,3
+Marked content tag /InlineShape not supported.,2
+/DCTDecodeParms (Virtual) dictionary contained an unexpected key (/QFactor).,2
+/DCTDecodeParms (Virtual) dictionary contained an unexpected key (/Colors).,2
+/DCTDecodeParms (Virtual) dictionary contained an unexpected key (/Rows).,2
+/Catalog dictionary contained an unexpected key (/LastModified).,2
+Marked content tag /TOCI not supported.,2
+/DCTDecodeParms (Virtual) dictionary contained an unexpected key (/Columns).,2
+/MarkInfo dictionary contained an unexpected key (/LetterspaceFlags).,2
+/Info dictionary contained an unexpected key (/Company).,2
+/Info dictionary contained an unexpected key (/Comments).,2
+/Catalog dictionary contained an unexpected key (/PieceInfo).,2
+Trailer attribute /Size (175) should be the same as the Cross Reference Table maximum object number plus one (194).,1
+Trailer attribute /Size (6053) should be the same as the Cross Reference Table maximum object number plus one (6032).,1
+Trailer attribute /Size (6369) should be the same as the Cross Reference Table maximum object number plus one (6347).,1
+Trailer attribute /Size (5802) should be the same as the Cross Reference Table maximum object number plus one (5782).,1
+Trailer attribute /Size (96) should be the same as the Cross Reference Table maximum object number plus one (94).,1
+Trailer attribute /Size (141) should be the same as the Cross Reference Table maximum object number plus one (140).,1
+Length value (18512)in a stream dictionary was inconsistent with the amount of stream data (18530) - repairing.,1
+Length value (10402)in a stream dictionary was inconsistent with the amount of stream data (10420) - repairing.,1
+Trailer attribute /Size (989) should be the same as the Cross Reference Table maximum object number plus one (1005).,1
+Length value (23672)in a stream dictionary was inconsistent with the amount of stream data (23812) - repairing.,1
+Trailer attribute /Size (2350) should be the same as the Cross Reference Table maximum object number plus one (2378).,1
+Length value (4779)in a stream dictionary was inconsistent with the amount of stream data (4798) - repairing.,1
+"Cleaning: Repairing value of /Last key (967, 0) inconsistent with last node (979, 0) in outline tree list.",1
+"Value of /Last key (10, 0) is inconsistent with last node (968, 0) in outline tree list.",1
+"Cleaning: Repairing value of /Last key (988, 0) inconsistent with last node (977, 0) in outline tree list.",1
+"Cleaning: Repairing value of /Last key (982, 0) inconsistent with last node (972, 0) in outline tree list.",1
+"Cleaning: Repairing value of /Last key (971, 0) inconsistent with last node (974, 0) in outline tree list.",1
+Trailer attribute /Size (1191) should be the same as the Cross Reference Table maximum object number plus one (1190).,1
+Trailer attribute /Size (633) should be the same as the Cross Reference Table maximum object number plus one (632).,1
+Trailer attribute /Size (78) should be the same as the Cross Reference Table maximum object number plus one (77).,1
+Trailer attribute /Size (5735) should be the same as the Cross Reference Table maximum object number plus one (5715).,1
+Remedy additional Cross Reference Table entries.,1
+Trailer attribute /Size (133) should be the same as the Cross Reference Table maximum object number plus one (132).,1
+Trailer attribute /Size (2334) should be the same as the Cross Reference Table maximum object number plus one (2362).,1
+Trailer attribute /Size (69) should be the same as the Cross Reference Table maximum object number plus one (83).,1
+Length value (6518)in a stream dictionary was inconsistent with the amount of stream data (6519) - repairing.,1
+Length value (13111)in a stream dictionary was inconsistent with the amount of stream data (13130) - repairing.,1
+Value of /OpenAction key in a document catalog dictionary must be a valid action allowed by content management policy.,1
